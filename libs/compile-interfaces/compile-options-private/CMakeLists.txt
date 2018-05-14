@@ -44,7 +44,7 @@ elseif(UNIX)
 
 endif()
 
-if (("${CMAKE_CXX_COMPILER_ID}" STREQUAL "Clang") AND PROJECT_USE_LIBCXX)
+if (("${CMAKE_CXX_COMPILER_ID}" STREQUAL "Clang") AND DIMENSION_USE_LIBCXX)
         target_compile_options(compile-options-private
             INTERFACE
                 -stdlib=libc++
