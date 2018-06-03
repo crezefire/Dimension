@@ -29,16 +29,16 @@ install(
     TARGETS
         dimension-compile-options-public
     EXPORT
-        CompileOptionsPublicTargets
+        DimeCompileOptionsPublicTargets
 )
 
 install(
     EXPORT
-        CompileOptionsPublicTargets
+        DimeCompileOptionsPublicTargets
     FILE
-        CompileOptionsPublicTargets.cmake
+        DimeCompileOptionsPublicTargets.cmake
     NAMESPACE
         dime::
     DESTINATION
-        lib/cmake/CompileOptionsPublicTargets
+        lib/cmake/DimeCompileOptionsPublicTargets
 )

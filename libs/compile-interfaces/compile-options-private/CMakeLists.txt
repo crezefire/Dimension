@@ -55,16 +55,16 @@ install(
     TARGETS
         dimension-compile-options-private
     EXPORT
-        CompileOptionsPrivateTargets
+        DimensionCompileOptionsPrivateTargets
 )
 
 install(
     EXPORT
-        CompileOptionsPrivateTargets
+        DimensionCompileOptionsPrivateTargets
     FILE
-        CompileOptionsPrivateTargets.cmake
+        DimensionCompileOptionsPrivateTargets.cmake
     NAMESPACE
         dime::
     DESTINATION
-        lib/cmake/CompileOptionsPrivateTargets
+        lib/cmake/DimensionCompileOptionsPrivateTargets
 )
