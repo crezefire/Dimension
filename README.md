@@ -1,6 +1,6 @@
 # Dimension
 
-A maths library for 3D graphics.
+A maths library for 3D graphics. Targetting x64.
 
 ## Getting Started
 - Run `get_latest_deps.sh` to pull down 3rd party dependencies from Github. Use `[-s|--ssh]` to use ssh.
